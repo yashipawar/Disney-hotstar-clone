@@ -39,12 +39,9 @@ const ViewTrailer = (props:idProp) => {
     },500)
   }
 
-
   useEffect(()=>{
-    getVideos()
+    getVideos();
   },[videos])
-
- 
 
     const [modalIsOpen, setIsOpen] = React.useState(false);
 
